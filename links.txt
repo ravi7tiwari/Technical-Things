@@ -1,0 +1,24 @@
+
+Express and Angular connectivity
+https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular
+
+
+Node Js
+https://docs.mongodb.com/getting-started/node/client/
+https://mongodb.github.io/node-mongodb-native/api-articles/nodekoarticle1.html  
+
+https://www.guru99.com/node-js-mongodb.html
+
+
+
+
+
+//DOcker
+https://www.slideshare.net/dotCloud/why-docker
+
+https://hortonworks.com/tutorial/analyzing-social-media-and-customer-sentiment-with-apache-nifi-and-hdp-search/
+
+
+login page
+
+http://www.bootstrapzen.com/preview/139/

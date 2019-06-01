@@ -1,0 +1,32 @@
+(function() {
+	var baseSetTimeout = '',
+		allDelay = [];
+
+	// 
+	baseSetTimeout = window.setTimeout;
+
+	setTimeout = function(callbackfunction, delay) {
+		// calcualting  all  delay's 
+		allDelay.push(delay);
+
+		/*Calling original setTimeout function
+		 * that we have stored in baseSetTimeout using apply method */
+		baseSetTimeout.apply(null, arguments);
+	}
+
+	// Console all collection settimeout delay
+	console.log(allDelay);
+})();
+
+
+setTimeout(function() {
+	console.log('finish');
+}, 8000);
+
+setTimeout(function() {
+	console.log('middle');
+}, 5000);
+
+setTimeout(function() {
+	console.log('start');
+}, 3000);
